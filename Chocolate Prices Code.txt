@@ -1,0 +1,29 @@
+KK = "$2.99"
+DM = "$2.50"
+Fl = "$3.15"
+Ae = "$2.79"
+DMM = "$3.00"
+KKL = "$3.50"
+
+product = input("Enter product name: ")
+
+if product == "KitKat":
+    print(KK)
+
+elif product == "Dairy Milk":
+    print(DM)
+
+elif product == "Flake":
+    print(Fl)
+
+elif product == "Aero":
+    print(Ae)
+
+elif product == "Dairy Milk Mint":
+    print(DMM)
+
+elif product == "KitKat Lotus":
+    print(KKL)
+
+else:
+    print("Product does not exist")
